@@ -1,33 +1,16 @@
 Module 1 - HTML Basics
 
-This webpage consists of following information using HTML:
+This webpage contains:
+- Name and short introduction
+- Image with alt text
+- Ordered list of hobbies and interests
+- Link to the Laurea website
+- Table listing courses and statuses
+- Contact form (name, email, message, submit — not functional)
 
-    Name and brief introduction
-
-    Image with alt text
-
-    Ordered list of hobbies and interests
-
-    Link to Laurea website
-
-    Table listing courses with statuses
-
-    Contact form with name, email, message, and submit button (No function, just for looks)
-
-
-        GitHub Copilot Helped With:
-        (Asked directly from Copilot what changes it made)
-            Table Styling
-
-            Borders, padding, colors
-            Better structure and headers
-            Form Improvements
-
-            Aligned fields
-            Consistent spacing
-            Proper textarea
-            Code Quality
-
-            Added lang="en"
-            Fixed HTML structure
-            Improved accessibility (W3C Validation fixes)
+GitHub Copilot assisted with:
+- Table structure: headers and clear column layout
+- Form: message field (textarea) and form field fixes
+- Code quality: 
+    - added lang="en" 
+    - fixed HTML structure and accessibility (W3C Validation)
