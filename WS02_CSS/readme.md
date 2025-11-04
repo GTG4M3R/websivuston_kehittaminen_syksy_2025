@@ -1,4 +1,9 @@
 Module 2 - CSS Fundamentals
 
-This folder contains WS01_HTML but inaddition to that
-it also consists of CSS styling
+This module includes:
+- Modified WS01_HTML/index.html
+- Added styles/styles.css with basic styling (background, headings, lists, table, form)
+
+Github Copilot was used for:
+- Poiting small CSS syntax issues
+- 

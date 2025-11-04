@@ -16,7 +16,7 @@
     }
     div {
     padding: 10px;
-    margin: 5x;
+    margin: 5px;
     }
 
     h2 {
@@ -24,7 +24,7 @@
     font-size: 1.5em;
     background-color: #00aaff;
     border-radius: 10px;
-    width: fit-content + 20px;
+    width: fit-content;
     padding: 5px 10px;
     }
 

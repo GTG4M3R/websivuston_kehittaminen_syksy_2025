@@ -4,11 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WS02_CSS</title>
-    <link rel="stylesheet" href="styles/styles.css" />
+    <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-    <h1 style="color: darkgrey">WS02_CSS</h1>
+    <h2>WS02_CSS</h2>
     <h1>Eetu Pyykkö</h1>
+
     <p>
       Hello! My name is Eetu Pyykkö. I'm currently enrolled in Laurea University
       of Applied Sciences course called "Websivuston kehittäminen".
@@ -24,13 +25,17 @@
       <li>Cars</li>
       <li>Business Information Technology studies</li>
     </ol>
-    <a href="https://www.laurea.fi">You probably should visit this website</a>
+    <p>
+      <a href="https://www.laurea.fi" target="_blank" rel="noopener"
+        >You probably should visit this website</a
+      >
+    </p>
 
     <h2>Here is some of my courses in finnish</h2>
     <table>
       <tr>
-        <th>Course Name</th>
-        <th>Status</th>
+        <th scope="col">Course Name</th>
+        <th scope="col">Status</th>
       </tr>
       <tr>
         <td>Asiantuntijaviestintä ja projektityö</td>
@@ -55,7 +60,7 @@
     </table>
 
     <h2>Contact me using this form:</h2>
-    <form>
+    <form method="post" action="#" aria-label="Contact form">
       <div>
         <label for="name">Name:</label>
         <input type="text" id="name" name="name" />
@@ -66,10 +71,10 @@
       </div>
       <div>
         <label for="message">Message:</label>
-        <textarea id="message" name="message"></textarea>
+        <textarea id="message" name="message" rows="6"></textarea>
       </div>
       <div>
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Send Message" />
       </div>
     </form>
   </body>
