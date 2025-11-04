@@ -5,5 +5,5 @@ This module includes:
 - Added styles/styles.css with basic styling (background, headings, lists, table, form)
 
 Github Copilot was used for:
-- Poiting small CSS syntax issues
-- 
+- Pointing out small CSS syntax issues
+- Code suggestions & reviewing
