@@ -1,11 +1,92 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WS03_CSS_Advanced</title>
-</head>
-<body>
-    <h1>WS03_CSS_Advanced</h1>
-</body>
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <h2 style="background-color: grey">WS02_CSS</h2>
+    <h1>Eetu Pyykkö</h1>
+
+    <p>
+      Hello! My name is Eetu Pyykkö. I'm currently enrolled in Laurea University
+      of Applied Sciences course called "Websivuston kehittäminen".
+    </p>
+    <div>
+      <img
+        src="images/Omakuva.jpg"
+        class="filter-image"
+        alt="This is me currently working on this HTML page."
+      />
+    </div>
+
+    <blockquote class="quote">Don't try too hard.</blockquote>
+
+    <div>
+      <button class="transition-button">CLICK ME!</button>
+    </div>
+    <div class="animation-box">OR TRY TO CLICK ME!</div>
+
+    <ol>
+      <li>Gaming on PC</li>
+      <li>Cars</li>
+      <li>Business Information Technology studies</li>
+    </ol>
+    <p>
+      <a href="https://www.laurea.fi" target="_blank" rel="noopener"
+        >You probably should visit this website</a
+      >
+    </p>
+
+    <h2>Here is some of my courses in finnish</h2>
+    <ul class="pseudo-list">
+      <table>
+        <tr>
+          <th scope="col">Course Name</th>
+          <th scope="col">Status</th>
+        </tr>
+        <tr>
+          <td>Asiantuntijaviestintä ja projektityö</td>
+          <td>Finished</td>
+        </tr>
+        <tr>
+          <td>ICT-infrastruktuurin ja pilvipalveluiden perusteet</td>
+          <td>Finished</td>
+        </tr>
+        <tr>
+          <td>Digitaalisen palvelun perusteet</td>
+          <td>Finished</td>
+        </tr>
+
+        <tr>
+          <td>Professional Communication in English</td>
+          <td>In progress</td>
+        </tr>
+        <tr>
+          <td>Websivuston kehittäminen</td>
+          <td>In progress</td>
+        </tr>
+      </table>
+    </ul>
+    <h2>Contact me using this form:</h2>
+    <form method="post" action="#" aria-label="Contact form">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6"></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Send Message" />
+      </div>
+    </form>
+  </body>
 </html>
