@@ -1,62 +1,58 @@
-h1 {
-  color: #ffffff;
-}
-
 body {
   background-color: #666666;
 }
 
 h1 {
+  color: #ffffff;
   font-size: 2em;
+}
+
+h2 {
+  background-color: #00aaff;
+  border-radius: 10px;
+  color: #ffffff;
+  font-size: 1.5em;
+  padding: 5px 10px;
+  width: fit-content;
 }
 
 p {
   color: #ffffff;
   font-size: 1.2em;
 }
-div {
-  padding: 10px;
-  margin: 5px;
-}
 
-h2 {
-  color: #ffffff;
-  font-size: 1.5em;
-  background-color: #00aaff;
-  border-radius: 10px;
-  width: fit-content;
-  padding: 5px 10px;
+div {
+  margin: 5px;
+  padding: 10px;
 }
 
 ol {
   background-color: #8d8d8d;
-  padding: 20px;
   border: 1px solid #ffffff;
   border-radius: 5px;
-  width: 35%;
+  padding: 20px;
 }
 
 li {
-  margin: 5px 0;
   color: #ffffff;
   font-size: 1.2em;
-  position: relative;
   left: 10px;
+  margin: 5px 0;
+  position: relative;
 }
 
 table {
-  width: 30%;
   border-collapse: collapse;
 }
 
 th,
 td {
-  border: 1px solid #ffffff;
-  padding: 8px;
-  text-align: left;
   background-color: #8d8d8d;
+  border: 1px solid #ffffff;
   color: rgb(255, 255, 255);
   font-size: 1.2em;
+  padding: 8px;
+  text-align: left;
 }
 
 th {
@@ -66,30 +62,33 @@ th {
 form {
   display: flex;
   flex-direction: column;
-  gap: 10px;
+}
+
+form > :not(:last-child) {
+  margin-bottom: 10px;
 }
 
 label {
-  font-weight: bold;
   color: #ffffff;
   display: block;
+  font-weight: bold;
 }
 
 input[type="text"],
 input[type="email"] {
-  padding: 8px;
   border: 1px solid #4a4a4a;
   border-radius: 4px;
+  padding: 8px;
 }
 
 input[type="submit"] {
   background-color: #00aaff;
-  color: #fff;
-  font-weight: bold;
-  padding: 10px;
   border: none;
   border-radius: 4px;
+  color: #fff;
   cursor: pointer;
+  font-weight: bold;
+  padding: 10px;
 }
 
 input[type="submit"]:hover {
@@ -99,9 +98,9 @@ input[type="submit"]:hover {
 
 .transition-button {
   background-color: #00aaffa0;
-  padding: 10px 20px;
   border: none;
   cursor: pointer;
+  padding: 10px 20px;
   transition: background-color 0.3s ease;
 }
 
@@ -110,11 +109,12 @@ input[type="submit"]:hover {
 }
 
 .animation-box {
-  width: 75px;
-  height: 50px;
-  background-color: #00aaffa0;
-  position: relative;
   animation: move 0.3s infinite alternate;
+  background-color: #00aaffa0;
+  height: 50px;
+  left: 0;
+  position: relative;
+  width: 75px;
 }
 
 @keyframes move {
@@ -127,10 +127,12 @@ input[type="submit"]:hover {
 }
 
 .pseudo-list td:nth-child(odd) {
+  background-color: #00b7ff;
   background-color: rgba(0, 183, 255, 0.432);
 }
 
 .pseudo-list td:nth-child(even) {
+  background-color: #ffff00;
   background-color: rgba(255, 255, 0, 0.482);
 }
 
@@ -144,64 +146,65 @@ input[type="submit"]:hover {
 }
 
 .quote {
-  position: relative;
-  padding-left: 20px;
   font-style: italic;
+  padding-left: 20px;
+  position: relative;
 }
 
 blockquote.quote::before {
+  color: #00aaffa0;
   content: "“";
   font-size: 40px;
-  position: absolute;
   left: 0;
-  top: 0;
-  color: #00aaffa0;
   margin-left: -0.1em;
+  position: absolute;
+  top: 0;
 }
+
 blockquote.quote::after {
+  color: #00aaffa0;
   content: "”";
   font-size: 40px;
-  position: absolute;
   left: 0;
-  top: 0;
-  color: #00aaffa0;
   margin-left: 3.3em;
+  position: absolute;
+  top: 0;
 }
 
 .flex-container {
-  display: flex;
-  justify-content: left;
   align-items: center;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .box {
   background-color: #00aaffa0;
-  padding: 20px;
-  text-align: center;
+  border-radius: 20px;
   color: #ffffff;
   font-size: 2em;
   font-weight: bold;
-  border-radius: 20px;
+  padding: 20px;
+  text-align: center;
 }
 
 .grid-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-gap: 10px;
   max-width: fit-content;
 }
 
 .grid-item {
   background-color: #00aaffa0;
-  padding: 10px;
-  text-align: center;
   border-radius: 20px;
   color: #ffffff;
-  font-weight: bold;
   font-size: 1.3em;
+  font-weight: bold;
+  padding: 10px;
+  text-align: center;
 }
 
 .responsive-box {
+  background-color: #00aaffa0;
   padding: 10px;
   text-align: center;
 }
@@ -219,9 +222,9 @@ blockquote.quote::after {
 }
 
 footer {
-  text-align: left;
-  padding: 10px;
   background-color: #4a4a4a;
   color: #ffffff;
   margin-top: 20px;
+  padding: 10px;
+  text-align: left;
 }
