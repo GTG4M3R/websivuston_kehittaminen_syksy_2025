@@ -7,14 +7,17 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
-
-  <h2 style="background-color: grey">WS05_Responsive_Design</h2>
+    <h2 style="background-color: grey">WS05_Responsive_Design</h2>
     <h1>Eetu Pyykkö</h1>
-    <div class="grid-container"></div>
-    <div class="grid-item">About</div>
-    <div class="grid-item">Services</div>
-    <div class="grid-item">Contact</div>
-  
+      <nav class="responsive-nav">
+        <button class="menu-toggle" aria-expanded="false" aria-controls="nav-list">☰ Menu</button>
+        <ul id="nav-list" class="nav-list" style="display: none;">
+          <li class="grid-item"><a href="#about">About</a></li>
+          <li class="grid-item"><a href="#services">Services</a></li>
+          <li class="grid-item"><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+
     <p>
       Hello! My name is Eetu Pyykkö. I'm currently enrolled in Laurea University
       of Applied Sciences course called "Websivuston kehittäminen".
@@ -34,6 +37,17 @@
     </div>
     <div class="animation-box">OR TRY TO CLICK ME!</div>
 
+    <div class="responsive-container">
+      <div class="column">Resize Test Column 1</div>
+      <div class="column">Resize Test Column 2</div>
+    </div>
+    <img
+      src="images/image2.gif"
+      alt="Responsive Image"
+      class="responsive-image"
+    />
+    <div class="media-query-box">Try to Resize the to see the effect</div>
+    <h2>Here are my interests:</h2>
     <ol>
       <li>Gaming on PC</li>
       <li>Cars</li>
@@ -94,24 +108,23 @@
       </div>
     </form>
     <header>
-    <h2>Shortcuts</h2>
-    <nav>
-      <ul>
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
+      <h2>Shortcuts</h2>
+        <ul class="nav-list2">
+          <li class="grid-item2"><a href="#about">About</a></li>
+          <li class="grid-item2"><a href="#services">Services</a></li>
+          <li class="grid-item2"><a href="#contact">Contact</a></li>
+        </ul>
+    </header>
     <main>
-    <section id="about">
-      <h2>Disclaimer</h2>
-      <p>This websites purpose is to try out different things.</p>
-    </section>
-  </main>
-  
-  <footer>
-    <p>Copyright © 2025 Eetu Pyykkö</p>
-  </footer>
+      <section id="about">
+        <h2>Disclaimer</h2>
+        <p>This websites purpose is to try out different things.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright © 2025 Eetu Pyykkö</p>
+    </footer>
+    <script src="./Script/menu-toggle.js" defer></script>
   </body>
 </html>
