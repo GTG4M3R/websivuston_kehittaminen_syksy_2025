@@ -10,3 +10,5 @@ Added basic responsive web design using:
     - Browsers developer tools
     - Simulated different screen sizes
     - Ensured that layout and elements adjusts correctly for various screens
+
+Perplexity Pro AI was used for JavaScript menu-toggle function and HTML & CSS validation process.
