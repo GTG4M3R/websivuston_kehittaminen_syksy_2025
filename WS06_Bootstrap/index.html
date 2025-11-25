@@ -1,11 +1,184 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WS06_Bootstrap</title>
-</head>
-<body>
-    <h1>WS06_Bootstrap</h1>
-</body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <h2 style="background-color: grey">WS06_Bootstrap</h2>
+    <h1>Eetu Pyykkö</h1>
+    <h4>Welcome to my website</h4>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navigation</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <p>
+      Hello! My name is Eetu Pyykkö. I'm currently enrolled in Laurea University
+      of Applied Sciences course called "Websivuston kehittäminen".
+    </p>
+    <div>
+      <img
+        src="images/Omakuva.jpg"
+        class="filter-image"
+        alt="This is me currently working on this HTML page."
+      />
+    </div>
+
+    <blockquote class="quote">Don't try too hard.</blockquote>
+
+    <div>
+      <button class="transition-button">CLICK ME!</button>
+    </div>
+
+    <div class="animation-box">OR CLICK ME!</div>
+
+    <button class="btn btn-primary">Click Me instead</button>
+
+    <div class="responsive-container">
+      <div class="column">Resize Test Column 1</div>
+      <div class="column">Resize Test Column 2</div>
+    </div>
+    <img src="images/image2.gif" class="img-fluid" alt="Responsive Image with bootstrap">
+    <div class="media-query-box">Try to Resize the to see the effect</div>
+    <h2>Here are my interests:</h2>
+    <ol>
+      <li>Gaming on PC</li>
+      <li>Cars</li>
+      <li>Business Information Technology studies</li>
+    </ol>
+    <div class="alert alert-danger" role="alert">
+      This is a warning! Check the website below.
+    
+    <p>
+      <a href="https://www.laurea.fi" target="_blank" rel="noopener"
+        >You probably should visit this website</a
+      >
+    </p>
+    </div>
+    <h3>Or visit these websites:</h3>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 col-12">Website 1</div>
+        <div class="col-md-4 col-12">Website 2</div>
+        <div class="col-md-4 col-12">Website 3</div>
+      </div>
+      <div class="alert alert-warning" role="alert">Did you check it out?</div>
+      <div class="card" style="width: 18rem">
+        <img
+          src="https://cdn.pixabay.com/photo/2015/06/24/15/45/code-820275_1280.jpg"
+          class="card-img-top"
+          alt="Card Image"
+        />
+        <div class="card-body">
+          <h5 class="card-title">Coding</h5>
+          <p class="card-text">This is a picture about coding.</p>
+          <a href="#" class="btn btn-primary">Get started</a>
+        </div>
+      </div>
+    </div>
+    <h2>Here is some of my courses in finnish</h2>
+    <ul class="pseudo-list">
+      <table>
+        <tr>
+          <th scope="col">Course Name</th>
+          <th scope="col">Status</th>
+        </tr>
+        <tr>
+          <td>Asiantuntijaviestintä ja projektityö</td>
+          <td>Finished</td>
+        </tr>
+        <tr>
+          <td>ICT-infrastruktuurin ja pilvipalveluiden perusteet</td>
+          <td>Finished</td>
+        </tr>
+        <tr>
+          <td>Digitaalisen palvelun perusteet</td>
+          <td>Finished</td>
+        </tr>
+
+        <tr>
+          <td>Professional Communication in English</td>
+          <td>In progress</td>
+        </tr>
+        <tr>
+          <td>Websivuston kehittäminen</td>
+          <td>In progress</td>
+        </tr>
+      </table>
+    </ul>
+    <h2>Contact me using this form:</h2>
+    <section id="Contact">
+    <form method="post" action="#" aria-label="Contact form">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" />
+      </div>
+      <div>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="6"></textarea>
+      </div>
+      <div>
+        <input type="submit" value="Send Message" />
+      </div>
+    </form>
+    </section>
+    <header>
+      <h2>Shortcuts</h2>
+      <ul class="nav-list2">
+        <li class="grid-item2"><a href="#about">About</a></li>
+        <li class="grid-item2"><a href="#services">Services</a></li>
+        <li class="grid-item2"><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <main>
+      <section id="about">
+        <h2>Disclaimer</h2>
+        <p>This websites purpose is to try out different things.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>Copyright © 2025 Eetu Pyykkö</p>
+    </footer>
+  </body>
 </html>
