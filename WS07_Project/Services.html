@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WS07_Project</title>
+    <title>Services</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -11,52 +11,112 @@
     <link rel="stylesheet" href="./styles/styles.css" />
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" role="navigation">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img
+            src="images/EP-AI-LOGO.png"
+            alt="EP Company Logo"
+            width="70"
+            height="55"
+            class="d-inline-block align-text-top"
+          />
+        </a>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="Services.html"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Contact.html ">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <div>
-      <nav
-        class="navbar navbar-expand-lg navbar-dark bg-dark"
-        role="navigation"
+      <h1>Services we provide:</h1>
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide"
+        data-bs-ride="carousel"
       >
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
             <img
-              src="images/EP-AI-LOGO.png"
-              alt="EP Company Logo"
-              width="70"
-              height="55"
-              class="d-inline-block align-text-top"
+              src="images/TuningCarSnowfoamed.jpg"
+              class="d-block w-100"
+              alt="Car snowfoamed"
             />
-          </a>
-
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="Services.html">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Pricing.html">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Contact.html ">Contact</a>
-              </li>
-            </ul>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/PowerwashingCar.jpg"
+              class="d-block w-100"
+              alt="Powerwashing car"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="images/HandDryingCarSkirt.jpg"
+              class="d-block w-100"
+              alt="Drying car skirt"
+            />
           </div>
         </div>
-      </nav>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    <div>
+      <p>We provide car detailing services for inviduals and companies.</p>
+      <p>Services include exterior washing, interior cleaning, waxing, and
+        polishing to keep your vehicle looking its best.</p>
+    </div>
+    <div>
+      <footer>
+        <p>Copyright © 2025 Eetu Pyykkö</p>
+      </footer>
     </div>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

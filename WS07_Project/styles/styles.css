@@ -2,6 +2,110 @@ body {
   background-color: #464646;
 }
 nav {
-  font-family: 'roboto', sans-serif;
+  font-family: "roboto", sans-serif;
   font-weight: bold;
+}
+
+p {
+  font-family: "arial", sans-serif;
+  font-style: italic;
+  color: #ffffff;
+  border-radius: 10px;
+  font-size: 1em;
+  padding: 5px 10px;
+}
+label {
+  font-family: "arial", sans-serif;
+  color: #ffffff;
+  font-size: 1em;
+  margin-right: 10px;
+  display: block;
+}
+h1 {
+  color: #ffffff;
+  background-color: #757575;
+  font-family: "roboto", sans-serif;
+  border-radius: 12px;
+  font-size: 1.5em;
+  margin-top: 20px;
+  padding: 5px 10px;
+  width: fit-content;
+}
+
+h2 {
+  color: #ffffff;
+  background-color: #757575;
+  font-family: "roboto", sans-serif;
+  border-radius: 12px;
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  padding: 5px 10px;
+  width: fit-content;
+}
+div {
+  margin: 5px;
+  padding: 10px;
+}
+
+input {
+  font-family: "roboto", sans-serif;
+  font-size: 1em;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+input[type="submit"] {
+  background-color: #0066ff;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #00d0ffa0;
+  font-weight: bold;
+  cursor: pointer;
+}
+footer {
+  font-family: "roboto", sans-serif;
+  font-size: large;
+  background-color: #757575;
+  color: #ffffff;
+  margin-top: 20px;
+  padding: 10px;
+  text-align: left;
+}
+
+#carouselExampleAutoplaying {
+  max-width: 400px;
+  margin: 0 auto;
+  align-items: left;
+  margin: 20px 0;
+}
+
+#carouselExampleAutoplaying img {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card-img-top {
+  max-height: 200px;
+  object-fit: cover;
+}
+
+.card {
+  max-width: 300px;
+}
+
+p.card-text {
+  color: #000000;
+}
+.card-group {
+  justify-content: left;
+  gap: 40px;
+}
+
+table {
+  max-width: 1000px;
 }
